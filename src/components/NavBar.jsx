@@ -1,13 +1,8 @@
-import React,{useState} from "react";
-import ReactStars from "react-rating-stars-component";
+import React from "react";
+import ReactStars from "react-stars";
 import { VscDebugRestart } from "react-icons/vsc";
 
-
-function NavBar({setSearch,setRate,rating}) {
-  const ratingChanged = (newRating) => {
-    console.log(newRating);
-  };
-  
+function NavBar({ setSearch, setRate, rating }) {
   return (
     <div>
       <div className="bg-img">
@@ -32,7 +27,6 @@ function NavBar({setSearch,setRate,rating}) {
               onChange={(newRating) => {
                 setRate(newRating);
               }}
-              
             />
             <a href="#home">Home</a>
             <a href="#movies">Movies</a>
