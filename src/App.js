@@ -10,7 +10,7 @@ function App() {
    
   return (
     <div className="App">
-     <NavBar setSearch={setSearch} setRate={setRate} rate={rate}/>
+     <NavBar setSearch={setSearch} setRate={setRate} rating={rate}/>
      <MOviesList rate={rate} search={search} />
     </div>
   );

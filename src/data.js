@@ -42,7 +42,8 @@ export const data = [
   },
   {
     title: "Emancipation",
-    imgUrl: "https://i.redd.it/86wq5y36spr91.jpg",
+    imgUrl:
+      "https://th.bing.com/th/id/R.694d91ba9260a187003d923b48d19f76?rik=C%2bYd1CYa2RVK9w&riu=http%3a%2f%2fwww.impawards.com%2f2023%2fposters%2femancipation.jpg&ehk=FemcuZRnFSTKhkAzCiF0nZSlnLajmQ1%2fWQEN99YmNXk%3d&risl=&pid=ImgRaw&r=0",
     cast: "Will Smith,Charmaine Bingwa,Ben Foster",
     rating: 3,
     desc: "A runaway slave forges through the swamps of Louisiana on a tortuous journey to escape plantation owners that nearly killed him.",
